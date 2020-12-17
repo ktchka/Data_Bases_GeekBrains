@@ -45,9 +45,9 @@ e-mail : имя           #2 таблица
 > use shop
 switched to db shop
 > db.shop.insert({"type":"category", "name":"computers"})
-WriteResult({ "numInserted" : 1 })
+WriteResult({ "nInserted" : 1 })
 > db.shop.insert({"type":"products", "name":"display"})
-WriteResult({ "numInserted" : 1 })
+WriteResult({ "nInserted" : 1 })
 > db.shop.find()
 { "_id" : ObjectId("5d3991370b05a4bb2c4f3cbf"), "type" : "category", "name" : "computers" }
 { "_id" : ObjectId("5d39914c0b05a4bb2c4f3cc0"), "type" : "products", "name" : "display" }
